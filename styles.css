@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Handjet', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5%;
+}
+
+button {
+    cursor: pointer;
+}
+
+#description {
+    margin-bottom: 5%;
+}
+
+.tabLinks {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tabContent {
+    margin: 0 20% 2%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    color: black;
+}
+
+.generatedText {
+    margin: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    background-color: gray;
+    pointer-events: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.tab {
+    color: black;
+}
